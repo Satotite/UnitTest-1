@@ -9,7 +9,7 @@ class ClasseDeTest(unittest.TestCase):
 #Execution des tests
     def test_simple(self):
         print("Réalisation de test")
-        self.assertTrue(True)
+        self.assertEqual(1 + 1 , 2)
 #Instruction pour desengager les ressources
     def test_tearDown(self):
         print("Après le test")
